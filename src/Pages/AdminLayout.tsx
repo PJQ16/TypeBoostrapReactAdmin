@@ -14,7 +14,7 @@ const DashboardLayout = () => {
       <aside
         className={`bg-light ${isSidebarCollapsed ? "collapsed" : ""}`}
         style={{
-          width: isSidebarCollapsed ? "80px" : "250px", // ความกว้างของ Sidebar
+          width: isSidebarCollapsed ? "120px" : "250px", // ความกว้างของ Sidebar
           transition: "width 0.3s",
           height: "100vh", // ทำให้ sidebar สูงเต็มจอ
         }}
