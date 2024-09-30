@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 
 export const Navbar = () => {
-
     const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
 
     const toggleSidebar = () => {
-        setIsSidebarCollapsed(!isSidebarCollapsed);
-      };
-    
+      setIsSidebarCollapsed(!isSidebarCollapsed);
+    };
+  
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <button className="btn" onClick={toggleSidebar}>

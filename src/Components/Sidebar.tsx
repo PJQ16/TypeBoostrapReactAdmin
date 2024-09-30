@@ -5,8 +5,9 @@ function Sidebar() {
     const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
 
     const toggleSidebar = () => {
-        setIsSidebarCollapsed(!isSidebarCollapsed);
-      };
+      setIsSidebarCollapsed(!isSidebarCollapsed);
+    };
+  
   return (
     <aside
         className={`bg-light ${isSidebarCollapsed ? "collapsed" : ""}`}
